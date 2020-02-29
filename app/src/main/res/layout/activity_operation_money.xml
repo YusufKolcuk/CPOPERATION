@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#005a75"
+    android:orientation="vertical"
+    tools:context="cp.clinicplast.asus.operationcp.OperationMoney">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPERASYON FİYAT LİSTESİ"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FİYAT DEĞİŞTİR"
+        android:id="@+id/degis"
+        android:textAllCaps="true"
+        android:textColor="#005a75"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KAYDET"
+        android:id="@+id/kayitE"
+        android:textAllCaps="true"
+        android:textColor="#005a75"
+        android:textSize="20sp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="ALIN ESTETİĞİ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="KULAK ESTETİĞİ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="BURUN ESTETİĞİ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="GÖZ KAPAĞI"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="YÜZ GERME"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="VASER LIPOSTION"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="KARIN GERME"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="KOL GERME"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="MEME DİKLEŞTİRME"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="MEME BÜYÜTME"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="MEME KÜÇÜLTME"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="JINEKOMASTI"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="LABIOPLASTI"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="VAJINOPLASTI"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="SAC EKIMI"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="SCARLETS"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="HYDRAFACHIAL"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="YUZ DOLGUSU"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/alinE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:enabled="false"
+            android:text="0"
+            />
+        <EditText
+            android:id="@+id/kulakE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="0"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/burunE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/gozE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="0"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/yuzE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/vaserE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/karinE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="0"
+
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/kolE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/memedikE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/memebuyE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/memekucE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/jinekoE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/labioE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/vajinE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/sacE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/scarE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/hydrE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+        <EditText
+            android:id="@+id/yuzdolguE"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:text="0"
+
+            android:textStyle="bold"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

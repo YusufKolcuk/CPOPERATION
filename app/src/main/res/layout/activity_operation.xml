@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cp.clinicplast.asus.operationcp.Operation"
+    android:background="#005a75"
+    android:id="@+id/main"
+    android:padding="5dp"
+
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPERASYONLAR"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="alın estetiği"/>
+    <CheckBox
+        android:id="@+id/c2"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="kulak estetiği"/>
+    <CheckBox
+        android:id="@+id/c3"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="burun estetiği"/>
+    <CheckBox
+        android:id="@+id/c4"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="göz kapağı estetiği"/>
+    <CheckBox
+        android:id="@+id/c5"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="yüz germe"/>
+    <CheckBox
+        android:id="@+id/c6"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="vaser lıpostıon"/>
+    <CheckBox
+        android:id="@+id/c7"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="karın germe"/>
+    <CheckBox
+        android:id="@+id/c8"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="kol germe"/>
+    <CheckBox
+        android:id="@+id/c9"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="meme dikleştirme"/>
+    <CheckBox
+        android:id="@+id/c10"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="meme büyütme"/>
+    <CheckBox
+        android:id="@+id/c11"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="meme küçültme"/>
+    <CheckBox
+        android:id="@+id/c12"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="jinekomasti"/>
+    <CheckBox
+        android:id="@+id/c13"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="labıoplastı"/>
+    <CheckBox
+        android:id="@+id/c14"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="vajınoplastı"/>
+    <CheckBox
+        android:id="@+id/c15"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="saç ekimi"/>
+    <CheckBox
+        android:id="@+id/c16"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="scarlets"/>
+    <CheckBox
+        android:id="@+id/c17"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="hydrafacıal"/>
+    <CheckBox
+        android:id="@+id/c18"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="Yuz dolgusu"/>
+    <Button
+        android:id="@+id/fiyatHesap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FİYAT VER"
+        android:textAllCaps="true"
+        android:textColor="#005a75"
+        android:textSize="15sp"
+        />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

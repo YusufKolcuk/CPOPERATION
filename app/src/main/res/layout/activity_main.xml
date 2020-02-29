@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cp.clinicplast.asus.operationcp.MainActivity"
+    android:background="#005a75">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/clinicplast" />
+
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:id="@+id/fiyatVer"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="FİYAT VER"
+        android:textAllCaps="true"
+        android:textColor="#005a75"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/fiyatListesi"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="FİYAT Listesi"
+        android:textAllCaps="true"
+        android:textColor="#005a75"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

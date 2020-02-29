@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "660373054076",
+    "firebase_url": "https://operationcp-15a46.firebaseio.com",
+    "project_id": "operationcp-15a46",
+    "storage_bucket": "operationcp-15a46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660373054076:android:65df4283c6d38bfed4dff9",
+        "android_client_info": {
+          "package_name": "cp.clinicplast.asus.operationcp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660373054076-r5gasprf3tl3mckqekn0dirkr6mrhkg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM-XEOu74X62CmWd1skpgOAQUfKS_QZw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660373054076-r5gasprf3tl3mckqekn0dirkr6mrhkg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
